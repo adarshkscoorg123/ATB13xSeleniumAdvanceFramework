@@ -1,13 +1,13 @@
-package com.thetestingacademy.pages.pageObjectModel.vwo;
+package com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class FreeTrailPage {
+public class FreeTrialPage {
 
     WebDriver driver;
 
-    public FreeTrailPage(WebDriver driver) {
+    public FreeTrialPage(WebDriver driver) {
 
         this.driver = driver;
     }

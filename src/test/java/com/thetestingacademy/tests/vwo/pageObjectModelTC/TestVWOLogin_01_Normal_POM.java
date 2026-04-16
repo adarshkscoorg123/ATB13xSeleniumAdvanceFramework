@@ -1,7 +1,7 @@
 package com.thetestingacademy.tests.vwo.pageObjectModelTC;
 
-import com.thetestingacademy.pages.pageObjectModel.vwo.DashBoardPage;
-import com.thetestingacademy.pages.pageObjectModel.vwo.LoginPage;
+import com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM.DashBoardPage;
+import com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM.LoginPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.openqa.selenium.WebDriver;

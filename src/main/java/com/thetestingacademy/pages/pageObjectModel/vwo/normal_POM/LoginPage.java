@@ -1,11 +1,9 @@
-package com.thetestingacademy.pages.pageObjectModel.vwo;
+package com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM;
 
 import com.thetestingacademy.utils.PropertiesReader;
 import com.thetestingacademy.utils.WaitHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 
 public class LoginPage {
 
@@ -34,7 +32,7 @@ public class LoginPage {
       // Page Class
       WebDriver driver;
 
-      // Step 0-Parametrized constructor
+      // Step 0-Parameterized constructor
       public LoginPage(WebDriver driver){
        this.driver = driver;
       }
